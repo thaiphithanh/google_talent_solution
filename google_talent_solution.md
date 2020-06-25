@@ -2,7 +2,7 @@
 
 Create a company
 **Method**: `POST`
-**Auth required** : YES
+**Auth required** : `YES`
 
 ```json
 [
