@@ -37,7 +37,7 @@
   ],
   "incentives": string,
   "languageCode": string,
-  "jobLevel": enum [JobLevel](https://cloud.google.com/talent-solution/job-search/docs/reference/rest/v4beta1/projects.jobs#Job.JobLevel),
+  "jobLevel": My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy"). ,
   "promotionValue": number,
   "qualifications": string,
   "responsibilities": string,
