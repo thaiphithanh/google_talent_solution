@@ -37,7 +37,7 @@
   ],
   "incentives": string,
   "languageCode": string,
-  "jobLevel": enum (JobLevel),
+  "jobLevel": enum [JobLevel] (https://cloud.google.com/talent-solution/job-search/docs/reference/rest/v4beta1/projects.jobs#Job.JobLevel),
   "promotionValue": number,
   "qualifications": string,
   "responsibilities": string,
