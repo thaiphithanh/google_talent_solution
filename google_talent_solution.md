@@ -1,6 +1,7 @@
 # Google talent solution API document
 
 Create a company
+
 **Method** : `POST`
 
 **Auth required** : YES
