@@ -37,7 +37,7 @@
   ],
   "incentives": string,
   "languageCode": string,
-  "jobLevel": My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy"). ,
+  "jobLevel": My favorite search engine is [Duck Duck Go].(https://duckduckgo.com "The best search engine for privacy"). ,
   "promotionValue": number,
   "qualifications": string,
   "responsibilities": string,
