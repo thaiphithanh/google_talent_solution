@@ -37,7 +37,7 @@
   ],
   "incentives": string,
   "languageCode": string,
-  "jobLevel": My favorite search engine is *[Duck Duck Go].(https://duckduckgo.com).* ,
+  "jobLevel": [I'm an inline-style link](https://www.google.com),
   "promotionValue": number,
   "qualifications": string,
   "responsibilities": string,
