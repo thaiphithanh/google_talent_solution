@@ -1,6 +1,8 @@
 # Google talent solution API document
 
-## Create a job
+## Create a company
+
+**Endpoint** : `/createcompany`
 
 **Method** : `POST`
 
@@ -8,56 +10,25 @@
 
 **Data constraints** :
 
-```json
+**Data body** :
 
-{
-  "name": string,
-  "company": string,
-  "requisitionId": string,
-  "title": string,
-  "description": string,
-  "addresses": [
-    string
-  ],
-  "jobBenefits": [
-    enum (JobBenefit)
-  ],
+```
+    externalId: externalId,
+    displayName: displayName,
+```
 
-  "customAttributes": {
-    string: {
-      object(CustomAttribute)
-    },
-  },
-  "degreeTypes": [
-    enum (DegreeType)
-  ],
-  "department": string,
-  "employmentTypes": [
-    enum (EmploymentType)
-  ],
-  "incentives": string,
-  "languageCode": string,
-  "jobLevel": [I'm an inline-style link](https://www.google.com),
-  "promotionValue": number,
-  "qualifications": string,
-  "responsibilities": string,
-  "postingRegion": enum (PostingRegion),
-  "visibility": enum (Visibility),
-  "jobStartTime": string,
-  "jobEndTime": string,
-  "postingPublishTime": string,
-  "postingExpireTime": string,
-  "postingCreateTime": string,
-  "postingUpdateTime": string,
-  "companyDisplayName": string,
-  "derivedInfo": {
-    object (DerivedInfo)
-  },
-  "processingOptions": {
-    object (ProcessingOptions)
-  }
-}
+## Create a company
 
+**Endpoint** : `/deletecompany`
 
+**Method** : `POST`
 
+**Auth required** : YES
+
+**Data constraints** :
+
+**Data body** :
+
+```
+    name : companyName ///projects/maxlancer/tenants/2434229d-8900-0000-0000-0091b9442c24/companies/d740ad93-642f-417e-8374-0ee0fff5f67f
 ```
